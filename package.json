@@ -1,6 +1,6 @@
 {
   "name": "glemba_package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -17,6 +17,7 @@
     "mocha": "^6.2.2"
   },
   "dependencies": {
+    "async": "^3.1.0",
     "ferancik_package": "github:ferancik-s/ferancik_package#bebb07cda52b516d8592f3794cb59554acee8bb8"
   }
 }
