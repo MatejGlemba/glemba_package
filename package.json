@@ -1,0 +1,22 @@
+{
+  "name": "glemba_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "ferancik_package": "github:ferancik-s/ferancik_package#bebb07cda52b516d8592f3794cb59554acee8bb8"
+  }
+}
